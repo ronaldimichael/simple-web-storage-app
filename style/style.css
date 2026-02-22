@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+#title {
+  padding: 50px 50px;
+}
+
+#user-information-form {
+  display: flex;
+  flex-grow: 1;
+  border: 3px solid #333;
+  padding: 50px 10%;
+}
