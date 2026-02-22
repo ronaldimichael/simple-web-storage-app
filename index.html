@@ -6,5 +6,71 @@
     <link rel="stylesheet" href="./style/style.css" />
     <title>Simple Web Storage App</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div id="content">
+        <header>
+          <div>
+            <h1>Add New User</h1>
+          </div>
+        </header>
+        <section id="user-information-form">
+          <div>
+            <header>
+              <div>
+                <h2>User Information Form</h2>
+              </div>
+              <form action="" id="user-form">
+                <div>
+                  <label for="input-name">Name:</label>
+                  <input
+                    type="text"
+                    name="input-name"
+                    id="input-name"
+                  /><br /><br />
+                </div>
+                <div>
+                  <label for="input-age">Age:</label>
+                  <input
+                    type="text"
+                    name="input-age"
+                    id="input-age"
+                  /><br /><br />
+                </div>
+                <div>
+                  <label for="input-city">City:</label>
+                  <input
+                    type="text"
+                    name="input-city"
+                    id="input-city"
+                  /><br /><br />
+                </div>
+                <div>
+                  <input id="submit-btn" type="submit" value="Submit" />
+                </div>
+              </form>
+            </header>
+          </div>
+        </section>
+
+        <section id="user-list">
+          <div>
+            <h3>User List</h3>
+          </div>
+          <section id="user-info">
+            <div class="user-title">
+              <h5>Name</h5>
+              <h5>Age</h5>
+              <h5>City</h5>
+            </div>
+            <div class="user-result">
+              <p class="user-result-name"></p>
+              <p class="user-result-age"></p>
+              <p class="user-result-city"></p>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
